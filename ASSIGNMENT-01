@@ -1,0 +1,23 @@
+An array is a collection of elements (values or variables), all of the same data type, stored in contiguous memory locations.
+Arrays are used to store multiple values in a single variable instead of declaring separate variables for each value.
+Example of an Array:
+int mark1 = 85;
+int mark2 = 90;
+int mark3 = 78;
+int mark4 = 88;
+int mark5 = 92;
+You can use an array:
+int marks[5] = {85, 90, 78, 88, 92};
+Here:
+
+int → data type of array elements
+
+marks → name of the array
+
+[5] → size of the array (number of elements)
+
+{85, 90, 78, 88, 92} → initial values of the array
+Array Declaration (General Syntax):
+data_type array_name[array_size];
+Example:
+int numbers[10];  // declares an integer array with 10 elements
